@@ -1,42 +1,93 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Jenny's Personal Profile</title>
+
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <section class="profile-section">
+  <!-- Navigation Menu -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="hobbies.html">Hobbies</a>
+    <a href="favorites.html">Favorites</a>
+    <a href="goals.html">Goals</a>
+    <a href="contact.html">Contact</a>
+  </nav>
 
-    <h1 class="profile-title">Jenny's Profile</h1>
+  <!-- Home Section -->
+  <section class="hero">
 
-    <p class="profile-description">
-      Welcome to my personal profile website.
-      This page demonstrates CSS text, font, color,
-      gradient, and opacity properties.
+    <img
+      src="profile.jpeg"
+      alt="Jenny's Profile Picture"
+      class="profile-photo"
+    >
+
+    <h1>Welcome to My Personal Website</h1>
+
+    <h2>Hi! I'm Jenny 👋</h2>
+
+    <p>
+      Welcome to my personal profile website!
+      I am a student who enjoys learning new things,
+      exploring technology, and improving my web-design skills.
     </p>
 
-    <div class="profile-card">
+    <p>
+      This website contains information about me,
+      my hobbies, favorites, goals, and how to contact me.
+    </p>
 
-      <h2>About Me</h2>
+    <a href="about.html" class="btn">Learn More About Me</a>
 
-      <p>
-        I am a student who enjoys learning new things
-        and improving my computer and web-design skills.
-      </p>
+  </section>
 
-      <h3>My Hobbies</h3>
+  <!-- Quick Links -->
+  <section class="page-section">
 
-      <p class="hobby-text">
-        Learning, creating websites, and exploring technology.
-      </p>
+    <h2>Explore My Website</h2>
+
+    <div class="card-container">
+
+      <div class="card">
+        <h3>👤 About Me</h3>
+        <p>Learn more about who I am.</p>
+        <a href="about.html" class="btn">Visit</a>
+      </div>
+
+      <div class="card">
+        <h3>🎮 My Hobbies</h3>
+        <p>See some of the things I enjoy doing.</p>
+        <a href="hobbies.html" class="btn">Visit</a>
+      </div>
+
+      <div class="card">
+        <h3>❤️ My Favorites</h3>
+        <p>Discover some of my favorite things.</p>
+        <a href="favorites.html" class="btn">Visit</a>
+      </div>
+
+      <div class="card">
+        <h3>🎯 My Goals</h3>
+        <p>See what I want to achieve in the future.</p>
+        <a href="goals.html" class="btn">Visit</a>
+      </div>
 
     </div>
 
   </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Jenny's Personal Profile</p>
+  </footer>
 
 </body>
 </html>
