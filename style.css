@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.profile-section {
+  max-width: 850px;
+  margin: 50px auto;
+  padding: 40px;
+  background: linear-gradient(to right, #1e3a8a, #7e22ce);
+  color: white;
+  opacity: 0.95;
+  border-radius: 20px;
+}
+
+.profile-title {
+  font-family: Georgia, serif;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.profile-description {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.profile-card {
+  margin-top: 30px;
+  padding: 25px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 15px;
+}
+
+.profile-card h2 {
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-size: 28px;
+}
+
+.profile-card h3 {
+  font-style: italic;
+  letter-spacing: 1px;
+}
+
+.hobby-text {
+  line-height: 1.8;
+  text-align: justify;
+}
